@@ -1,0 +1,68 @@
+/* ApiForm.css (or your preferred CSS file) */
+.ApiForm {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+  }
+  
+  .ApiForm h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .ApiForm form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .ApiForm label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .ApiForm input[type="text"],
+  .ApiForm input[type="email"] {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 16px;
+  }
+  
+  .ApiForm button[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 3px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .ApiForm button[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Center the form vertically and horizontally */
+  .ApiForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+  }
+  
+  /* Add media queries for responsiveness */
+  @media (max-width: 600px) {
+    .ApiForm {
+      width: 90%;
+    }
+  }
+  

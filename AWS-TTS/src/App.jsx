@@ -1,5 +1,5 @@
 import { useState } from 'react'
-
+import ApiForm from './components/ApiForm'
 import './App.css'
 
 function App() {
@@ -9,8 +9,9 @@ function App() {
     <>
       <div>
         <p>
-          Hello Testing
+          Welcome to AWS testing TTS
         </p>
+        <ApiForm/>
       </div>
     </>
   )
