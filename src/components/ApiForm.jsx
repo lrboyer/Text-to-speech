@@ -19,7 +19,6 @@ const ApiForm = () => {
       console.log('API Response:', response.data);
     } catch (error) {
       console.error('API Error:', error);
-      // Handle errors
     }
   };
 
