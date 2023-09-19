@@ -23,8 +23,6 @@ const ApiForm = () => {
 
   const handleChange = (e) => {
     const { name, value } = e.target;
-    
-    // Ensure that the input value is treated as a number
     const numericValue = parseFloat(value);
 
     setFormData({ ...formData, [name]: numericValue });
