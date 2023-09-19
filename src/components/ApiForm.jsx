@@ -13,7 +13,6 @@ const ApiForm = () => {
     const apiUrl = 'https://2wydlxf26l.execute-api.us-east-2.amazonaws.com/staging';
 
     try {
-      // Make a POST request to the RESTful API
       const response = await axios.post(apiUrl, JSON.stringify(formData));
 
       console.log('API Response:', response.data);
