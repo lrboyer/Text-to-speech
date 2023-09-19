@@ -10,7 +10,6 @@ const ApiForm = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
 
-    // Define the API endpoint URL
     const apiUrl = 'https://2wydlxf26l.execute-api.us-east-2.amazonaws.com/staging';
 
     try {
